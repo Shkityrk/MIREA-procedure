@@ -8,4 +8,4 @@ add_executable(MIREA_procedure
         2.cpp
         3.cpp
         4.cpp
-        5.cpp)
+        5.cpp
