@@ -62,8 +62,8 @@ void Task2Prog2() {
     cout << w << endl;
 }
 
-double calculate_z(double x, double y, double b) {
-    if (x < 0 || b < 0) {
+double calculate_z(double x, double y, double b) {//вычисление результата
+    if (x < 0 || b < 0) {// проверка области допустимых значений
         cout << "Ошибка!" << endl;
         return -1;
     }
@@ -101,7 +101,7 @@ void Task2Prog4() {
     }
 }
 
-double equation(double x) {
+double equation(double x) {//запись выражения
 
     return ((pow(x, 2) - 2 * x + 2) / (x - 1));
 
