@@ -16,14 +16,14 @@ bool perestanovka(int* urna, int n){
 }
 
 int main(){
-    int n=10; int p=3628800;
+    int n=10; int p=3628800;// данные из презентации Е.Н. Каширской
     int ans=0;
-    int arr[10] = { 0,1,2,3,4,5,6,7,8,9 };
+    int arr[10] = { 0,1,2,3,4,5,6,7,8,9 };// создаем массив
 
-    for (int i = 0; i < p; ++i)
+    for (int i = 0; i < p; ++i)// перебор всех возможных перестановок
     {
         next_permutation(arr, arr + n);
-        if (perestanovka(arr,n))
+        if (perestanovka(arr,n))// если перестановка возможна - увеличиваем счетчик на единицу
             ans++;
     }
     cout << ans << endl;
