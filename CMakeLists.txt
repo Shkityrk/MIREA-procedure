@@ -9,3 +9,6 @@ add_executable(MIREA_procedure
         3.cpp
         4.cpp
         5.cpp
+        merge_sort.cpp
+
+)
